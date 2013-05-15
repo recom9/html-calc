@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+div.calc {width:400px; height: 600px;border:solid 1px}
+.textbox input { font-size:32px; width:396px; text-align:right}
+.buttonl input {font-size:37px; width: 50px;}
+span.buttonl span {white-space:pre;}
+span.buttonl span:after {content: "                "}
+
+</style>
+    <script type="text/javascript" src="/js/index.js"></script>
+  </head>
+  <body>
+    <div class="calc">
+      <span class="textbox"><input type="text" id="textBox" value="0"/></span>
+      <p>
+        <span class="buttonl"><input type="button" value="1" id="one"/><span></span><input type="button" value="2" id="two"/><span></span><input type="button" value="3" id="three"/><span></span><input type="button" value="+" id="plus"/></span>
+        <br/>
+        <span class="buttonl"><input type="button" value="4" id="four"/><span></span><input type="button" value="5" id="five"/><span></span><input type="button" value="6" id="six"/><span></span><input type="button" value="-" id="minus"/></span>
+        <br/>
+        <span class="buttonl"><input type="button" value="7" id="seven"/><span></span><input type="button" value="8" id="eight"/><span></span><input type="button" value="9" id="nine"/><span></span><input type="button" value="&#215;" id="times"/></span>
+        <br/>
+        <span class="buttonl"><input type="button" value="0" id="zero"/><span></span><input type="button" value="C" id="bye"/><span></span><input type="button" value="=" id="equal"/><span></span><input type="button" value="&#247;" id="divide"/></span>
+      </p>
+    </div>
+  </body>
+</html>
